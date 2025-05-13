@@ -17,7 +17,9 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App'; 
+import App from './App'; // Uvoz glavne komponente aplikacije
+import './styles/index.css'; // Uvoz CSS stilova za boje
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

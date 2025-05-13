@@ -1,0 +1,44 @@
+/* Ovo su css varijble koje se mogu koristiti bilo gdje u kodu.*/
+:root {
+    --primary-color: #2D3E50;
+    --secondary-color: #6B5B95;
+    --accent-color: #CBAACB;
+    --background-color: #F8F8F8;
+    --text-color: #333333;
+    --light-color: #ffffff;
+  }
+  
+
+  /* Npr:   Ovo je primjer kako koristiti varijable u css-u */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-size: 16px;
+      }
+      
+      header, footer {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        padding: 10px 20px;
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+      }
+      
+      nav a {
+        color: var(--light-color);
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        text-decoration: underline;
+      }
+      

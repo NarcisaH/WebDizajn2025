@@ -1,0 +1,29 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 0;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+  }
+  
+  
+  

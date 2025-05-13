@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": "dd92",
+      "ime": "Narcisa ",
+      "email": "narcisa.hadzajlic@dl.unze.ba",
+      "password": "1234",
+      "role": "guest"
+    },
+    {
+      "id": "7c2a",
+      "ime": "Novi Korisnik",
+      "email": "novi@gmail.com",
+      "password": "123456",
+      "role": "guest"
+    }
+  ]
+}
