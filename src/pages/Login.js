@@ -87,7 +87,7 @@ function Login() {
     <div style={{ padding: '20px' }}>
       {ulogovani ? (
         <div>
-          <h2>Dobrodošao, {ulogovani.ime}!</h2>
+          <h2>Dobrodošao/la, {ulogovani.ime}!</h2>
           <p>Uspješno ste prijavljeni kao {ulogovani.role}.</p>
         </div>
       ) : (

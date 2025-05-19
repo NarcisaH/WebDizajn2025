@@ -13,6 +13,22 @@
       "email": "novi@gmail.com",
       "password": "123456",
       "role": "guest"
+    },
+    {
+      "id": "76ff",
+      "ime": "Jos jedan",
+      "email": "josNeki@unze.ba",
+      "password": "321",
+      "role": "guest"
+    }
+  ],
+  "messages": [
+    {
+      "id": "908c",
+      "ime": "Narcisa ",
+      "email": "narcisa.hadzajlic@dl.unze.ba",
+      "poruka": "Ova stranica je fantastična!",
+      "datum": "5/19/2025, 10:26:02 PM"
     }
   ]
 }

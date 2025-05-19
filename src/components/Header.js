@@ -33,7 +33,13 @@ function Header({ korisnik, onLogout }) {
   };
 
   return (
-    <header style={{ backgroundColor: 'var(--primary-color)', padding: '10px' }}>
+    <header style={{ backgroundColor: 'var(--primary-color)', padding: '10px', backgroundColor: 'var(--primary-color)',
+                      padding: '10px 20px',
+                      position: 'sticky',
+                      top: 0,
+                      zIndex: 1000
+                    }}>
+
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <ul style={{ listStyle: 'none', display: 'flex', gap: '20px', margin: 0, padding: 0 }}>
           <li><Link to="/" style={{ color: 'white' }}>Početna</Link></li>
