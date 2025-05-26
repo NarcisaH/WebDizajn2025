@@ -16,7 +16,7 @@ function Home() {
 
     <div style={{ padding: '20px' }}>
       <div style={{
-        backgroundImage: 'url(/images/hero.jpg)', 
+        backgroundImage: 'url(/images/hero.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         color: 'white',
@@ -29,12 +29,9 @@ function Home() {
       </div>
 
       <h1 style={{textAlign: 'center', padding: '30px'}}>Čari Islamske Arhitekture</h1>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+      <div className="grid-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
         {arhitektura.map(obj => (
           <div key={obj.id} style={{ border: '1px solid #ddd', borderRadius: '10px', overflow: 'hidden',
-                                    border: '1px solid #ddd',
-                                    borderRadius: '10px',
-                                    overflow: 'hidden',
                                     boxShadow: '0 2px 5px rgba(0,0,0,0.1)',
                                     transition: 'transform 0.3s',
         }}

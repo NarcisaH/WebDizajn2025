@@ -10,13 +10,13 @@ form {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   input, button {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+
   button {
     background-color: var(--primary-color);
     color: white;
@@ -26,11 +26,52 @@ form {
     border-radius: 4px;
     margin: 0;
   }
-  
+
   button:hover {
     background-color: var(--secondary-color);
     opacity: 0.8;
   }
-  
-  
-  
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  form {
+    width: 100%;
+    padding: 0 10px;
+  }
+  img {
+    height: auto !important;
+  }
+  .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block !important;
+  }
+  .nav-menu {
+    list-style: none;
+    display: none; /* sakrij meni po defaultu */
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-color: var(--primary-color);
+  }
+  .nav-menu.show {
+    display: flex;
+  }
+}
+
+
